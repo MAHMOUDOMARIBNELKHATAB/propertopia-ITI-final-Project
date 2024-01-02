@@ -1,0 +1,25 @@
+.header {
+    letter-spacing:-1px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    outline: none;
+    text-align: left !important;
+  }
+
+  .header:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card{
+        flex-wrap: wrap !important;
+    }
+    .header{
+      text-align: center !important;
+    }
+    .btn_see{
+      justify-content: center !important;
+    }
+}
